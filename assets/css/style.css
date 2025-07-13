@@ -1,0 +1,75 @@
+/* * {
+    outline: 2px dashed black;
+} */
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-image: url(../images/noise.png);
+}
+
+.lh-negra {
+    background: linear-gradient(90deg,rgba(0,0,0,0) 0%, #000000 5%, #000000 95%, transparent 100%);
+}
+
+.lh-blanca {
+    background: linear-gradient(90deg,rgba(0,0,0,0) 0%, #ffffff 5%, #ffffff 95%, transparent 100%);
+}
+
+header {
+    background-color:#dbe2e5;
+    background-image: url(../images/noise.png);
+}
+
+#proyectos {
+    background-color:#3d434a;
+    background-image: url(../images/noise.png);
+}
+
+#proyectos i{
+    color: goldenrod;
+}
+
+.carousel-inner {
+    background-color: #faeddf;
+    background-image: url("../images/noise.png");
+    height: 450px;
+}
+
+#contacto {
+    background-color:#faeddf;
+    background-image: url(../images/noise.png);
+}
+
+.contacto-dark {
+    background-color:burlywood;
+    color:#803847;
+}
+
+.contacto-light {
+    background-color: #faeddf;
+    color:#803847;
+}
+
+.btn-form {
+    border-color: #803847;
+    color: #803847;
+}
+
+.carousel-indicators button {
+    background-color: #d1cdc8 !important;
+    width: 12px !important;  /* Aumenta el ancho */
+    height: 12px !important; /* Aumenta la altura */
+}
+
+
+.carousel-indicators button.active {
+    background-color: #6d6a67 !important;
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: #a12840;
+}
